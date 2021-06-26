@@ -1,0 +1,28 @@
+/*  Author: Tyler Mooney
+    Date: June 25th
+*/
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.header-navbar {
+
+}
+
+.logo {
+
+}
+
+.search-form {
+
+}
+
+.button {
+    margin: 20px;
+}
+
+.footer-navbar {
+
+}
