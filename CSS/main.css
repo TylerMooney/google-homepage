@@ -1,18 +1,28 @@
 /*  Author: Tyler Mooney
     Date: June 25th
 */
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
 
 .center {
     display: flex;
     justify-content: center;
 }
 
-.header-navbar {
-
+header {
+    padding-bottom: 20px;
 }
 
 .logo {
-
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 .search-form {
@@ -23,6 +33,8 @@
     margin: 20px;
 }
 
-.footer-navbar {
-
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
