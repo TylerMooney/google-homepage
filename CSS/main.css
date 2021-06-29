@@ -12,11 +12,6 @@ li a {
     padding: 14px 16px;
 }
 
-.center {
-    display: flex;
-    justify-content: center;
-}
-
 header {
     position: fixed;
     top: 0;
@@ -24,21 +19,8 @@ header {
 }
 
 header li a {
-    color: black;
+    color: #222;
     text-decoration: none;
-}
-
-.logo {
-    margin-top: 100px;
-    margin-bottom: 20px;
-}
-
-.search-form {
-
-}
-
-.button {
-    margin: 20px;
 }
 
 footer {
@@ -55,4 +37,28 @@ footer li a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.search-form {
+
+}
+
+.button {
+    background-color: #f8f9fa;
+    color:#3c4043;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
 }
