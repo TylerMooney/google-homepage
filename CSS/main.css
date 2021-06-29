@@ -1,5 +1,8 @@
 /*  Author: Tyler Mooney
     Date: June 25th
+
+    Note: I have no clue what the google homepage font it
+    so I'm just gonna leave that alone for now.
 */
 
 li {
@@ -61,4 +64,23 @@ a:hover {
     border-radius: 6px;
     border: none;
     font-size: 14px;
+}
+
+#sign-in-button {
+    background-color:#4585f4;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* 
+The hover of the sign in button only affects the bottom
+and I can't figure out what color it is. For now I'll leave this
+code as is. It could be that I'm not supposed to use box-shadow
+*/
+#sign-in-button:hover {
+    box-shadow: 0px 0px 5px 0px lightgray;
 }
