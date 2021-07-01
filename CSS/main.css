@@ -53,17 +53,39 @@ a:hover {
 }
 
 .search-form {
+    height: 2rem;
+    width: 35rem;
+    border-width: 1px;
+    border-radius: 18px;
+    border-color: lightgray;
+    border-style: solid;
+}
 
+/*You'll have to use this to add the icons*/
+.search-form-icon {
+
+}
+
+/*You'll have to use this to have the icons use a hover effect
+with the search form*/
+.search-form:hover + search-form-icon {
+    
 }
 
 .button {
     background-color: #f8f9fa;
     color:#3c4043;
-    margin: 20px;
+    margin-top: 20px;
+    margin-right: 7px;
+    margin-left: 7px;
     padding: 10px 20px;
     border-radius: 6px;
     border: none;
     font-size: 14px;
+}
+
+.button:hover {
+    /*make it to where the cursor changes to pointer icon*/
 }
 
 #sign-in-button {
