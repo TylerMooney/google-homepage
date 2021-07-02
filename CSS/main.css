@@ -1,8 +1,14 @@
 /*  Author: Tyler Mooney
     Date: June 25th
 
-    Note: I have no clue what the google homepage font it
-    so I'm just gonna leave that alone for now.
+    Note: I changed the font to something as close to the
+    google product sans font
+
+    TODO:
+    - Change the apps icon to be gray until hovered over
+    - Center logo, search form, and buttons
+    - add hover effect to search form and buttons
+    - add icons to search form
 */
 
 li {
@@ -16,7 +22,7 @@ li a, li img, li div{
 }
 
 li a {
-    padding-top: 18px;
+    padding-top: 20px;
 }
 
 li div {
@@ -27,6 +33,9 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    font-family: -apple-system, 'Roboto', sans-serif;
+    font-weight: 350;
+    font-size: 14px;
 }
 
 header li a {
@@ -39,6 +48,9 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #f2f2f2;
+    font-family: -apple-system, 'Roboto', sans-serif;
+    font-weight: 350;
+    font-size: 14px;
 }
 
 footer li a {
@@ -90,6 +102,7 @@ with the search form*/
     border-radius: 6px;
     border: none;
     font-size: 14px;
+    font-family: -apple-system, 'Roboto', sans-serif;
 }
 
 .button:hover {
@@ -101,9 +114,10 @@ with the search form*/
     color: white;
     border: none;
     border-radius: 2px;
-    padding: 8px 12px;
-    font-size: 14px;
+    padding: 8px 14px;
+    font-family: -apple-system, 'Roboto', sans-serif;
     font-weight: bold;
+    font-size: 14px;
 }
 
 /* 
