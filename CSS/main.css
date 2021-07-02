@@ -6,9 +6,8 @@
 
     TODO:
     - Change the apps icon to be gray until hovered over
-    - Center logo, search form, and buttons
-    - add hover effect to search form and buttons
-    - add icons to search form
+    - Add hover effect to search form and buttons
+    - Add icons to search form
 */
 
 li {
@@ -68,7 +67,7 @@ a:hover {
 }
 
 .logo {
-    margin-top: 100px;
+    margin-top: 30%;
     margin-bottom: 20px;
 }
 
