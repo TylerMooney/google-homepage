@@ -7,7 +7,7 @@
     TODO:
     - Change the apps icon to be gray until hovered over
     - Add hover effect to search form and buttons
-    - Make it so the search form text doesn't go below the icons
+    - Make it so font and size of text in search form is uniform with website
 */
 
 li {
@@ -73,7 +73,8 @@ a:hover {
 }
 
 /*The padding will make the search form a bit longer, so be
-sure to adjust the width accordingly*/
+sure to adjust the width accordingly
+Useful link: https://www.mikedane.com/web-development/css/styling-search-bar/*/
 .search-form {
     height: 2.5rem;
     width: 30rem;
