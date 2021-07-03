@@ -72,13 +72,17 @@ a:hover {
     margin-bottom: 20px;
 }
 
+/*The padding will make the search form a bit longer, so be
+sure to adjust the width accordingly*/
 .search-form {
     height: 2.5rem;
-    width: 35rem;
+    width: 30rem;
     border-width: 1px;
     border-radius: 20px;
     border-color: lightgray;
     border-style: solid;
+    padding-left: 50px;
+    padding-right: 55px;
 }
 
 .search-icon {
