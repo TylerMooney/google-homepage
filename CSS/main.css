@@ -7,7 +7,7 @@
     TODO:
     - Change the apps icon to be gray until hovered over
     - Add hover effect to search form and buttons
-    - Add icons to search form
+    - Make it so the search form text doesn't go below the icons
 */
 
 li {
@@ -64,30 +64,40 @@ a:hover {
 .center {
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .logo {
-    margin-top: 30%;
+    margin-top: 300px;
     margin-bottom: 20px;
 }
 
 .search-form {
-    height: 2rem;
+    height: 2.5rem;
     width: 35rem;
     border-width: 1px;
-    border-radius: 18px;
+    border-radius: 20px;
     border-color: lightgray;
     border-style: solid;
 }
 
-/*You'll have to use this to add the icons*/
-.search-form-icon {
+.search-icon {
+    height: 24px;
+    width: 24px;
+    position:absolute;
+    top: 10px;
+}
 
+.mic-icon {
+    height: 28px;
+    width: 28px;
+    position: absolute;
+    top: 8px;
 }
 
 /*You'll have to use this to have the icons use a hover effect
 with the search form*/
-.search-form:hover + search-form-icon {
+.search-form:hover{
     
 }
 
@@ -126,4 +136,14 @@ code as is. It could be that I'm not supposed to use box-shadow
 */
 #sign-in-button:hover {
     box-shadow: 0px 0px 5px 0px lightgray;
+}
+
+#left-block {
+    float: left;
+    margin-left: 2.5%;
+}
+
+#right-block {
+    float: right;
+    margin-right: 7.5%;
 }

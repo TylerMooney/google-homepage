@@ -24,7 +24,7 @@
 
             <!--float: right items have to be placed in reverse order-->
             <li style="float:right"><div><button type="submit" id="sign-in-button">Sign in</button><div></li>
-            <li style="float:right"><img src="images/Apps Icon/1x/outline_apps_black_24dp.png"></img></li>
+            <li style="float:right"><img src="images/Apps Icon/1x/outline_apps_black_24dp.png" /></li>
             <li style="float:right"><a href="#Images">Images</a></li>
             <li style="float:right"><a href="#Gmail">Gmail</a></li>
         </ul>
@@ -36,9 +36,20 @@
     </div>
 
     <!--Search Form Div-->
+    <!--The reason why there's so many nested divs is to allow for
+    the position of the icons to be absolute and be within a set margin
+    of the search form while allowing for them to not move while the window
+    size changes. link: https://stackoverflow.com/questions/18769891/making-divs-stay-the-same-place-when-resizing-window-->
     <div class="center">
-        <input type="text" class="search-form" placeholder="">
-        
+        <div>
+            <div id="left-block">
+                <img class="search-icon" src="images/black-24dp/1x/outline_search_black_24dp.png" />
+            </div>
+            <input type="text" class="search-form" placeholder="">
+            <div id="right-block">
+                <img class="mic-icon" src="images/googlemic.png" />
+            </div>
+        </div>
     </div>
 
     <!--Buttons Div-->
