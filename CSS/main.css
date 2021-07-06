@@ -1,13 +1,25 @@
 /*  Author: Tyler Mooney
     Date: June 25th
 
-    Note: I changed the font to something as close to the
-    google product sans font
+    Notes: 
+    - I changed the font to something as close to the
+    google product sans font. 
+    - Also some of the colors, I went and looked at 
+    the code from the google homepage website to use.
+    - The two buttons below the search form would need to be
+    in the same div as the search form because in order for them to
+    function properly with the search form, they must be in the same div.
+    - Some classes could just be ids and some of the css could be condensed
+    to look a lot more neat.
+    - I could have done some more to allow for the window to resize better
+    when becoming smaller.
+    - The last TODO I'm gonna leave alone because I feel that I shouldn't
+    spend anymore time on this and move on with the TOP course since I was
+    already going a bit further than what the original assignment was saying
+    to do. For Example: me adding the hover effects.
 
     TODO:
-    - Change the apps icon to be gray until hovered over
-    - Add hover effect to search form and buttons
-    - Make it so font and size of text in search form is uniform with website
+    - Have search form hover effect still active when hovering over icons
 */
 
 li {
@@ -84,6 +96,9 @@ Useful link: https://www.mikedane.com/web-development/css/styling-search-bar/*/
     border-style: solid;
     padding-left: 50px;
     padding-right: 55px;
+    font-size: 16px;
+    /*I don't know if this actually changes the font or not*/
+    font-family: -apple-system, 'Roboto', sans-serif;
 }
 
 .search-form:hover{
@@ -122,6 +137,7 @@ Useful Link: https://stackoverflow.com/questions/9612758/add-a-css-border-on-hov
     border: 0.5px solid transparent;
     font-size: 14px;
     font-family: -apple-system, 'Roboto', sans-serif;
+    font-weight: 0px;
 }
 
 .button:hover {
@@ -166,4 +182,9 @@ Maybe using border-bottom would work*/
 #right-block {
     float: right;
     margin-right: 7.5%;
+}
+
+#apps-icon:hover {
+    cursor: pointer;
+    filter: invert(0%);
 }
