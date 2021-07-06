@@ -6,6 +6,7 @@
 
     TODO:
     - Change the apps icon to be gray until hovered over
+    - Change search form icon to be gray
     - Add hover effect to search form and buttons
     - Make it so font and size of text in search form is uniform with website
 */
@@ -121,6 +122,12 @@ with the search form*/
 
 .button:hover {
     /*make it to where the cursor changes to pointer icon*/
+}
+
+/*I originally tried the grayscale, but that didn't work because
+the images were black. Therefore this will only turn black images gray*/
+.grayscale {
+    filter: invert(45%);
 }
 
 #sign-in-button {
