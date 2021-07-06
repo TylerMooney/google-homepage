@@ -6,7 +6,6 @@
 
     TODO:
     - Change the apps icon to be gray until hovered over
-    - Change search form icon to be gray
     - Add hover effect to search form and buttons
     - Make it so font and size of text in search form is uniform with website
 */
@@ -107,6 +106,9 @@ with the search form*/
     
 }
 
+/*We set the border to be transparent that way when you hover
+over button and the border does appear, the elements don't move
+Useful Link: https://stackoverflow.com/questions/9612758/add-a-css-border-on-hover-without-moving-the-element*/
 .button {
     background-color: #f8f9fa;
     color:#3c4043;
@@ -115,17 +117,21 @@ with the search form*/
     margin-left: 7px;
     padding: 10px 20px;
     border-radius: 6px;
-    border: none;
+    border: 0.5px solid transparent;
     font-size: 14px;
     font-family: -apple-system, 'Roboto', sans-serif;
 }
 
 .button:hover {
-    /*make it to where the cursor changes to pointer icon*/
+    border: 0.5px solid #b8bec4;
+    background-color: white;
+    background-image: linear-gradient(to bottom, white 0%, #f8f9fa 51%);
+    cursor: pointer;
 }
 
 /*I originally tried the grayscale, but that didn't work because
-the images were black. Therefore this will only turn black images gray*/
+the images were black. Therefore this will only turn black images gray
+Useful link: https://stackoverflow.com/questions/7415872/change-color-of-png-image-via-css*/
 .grayscale {
     filter: invert(45%);
 }
@@ -145,7 +151,7 @@ the images were black. Therefore this will only turn black images gray*/
 The hover of the sign in button only affects the bottom
 and I can't figure out what color it is. For now I'll leave this
 code as is. It could be that I'm not supposed to use box-shadow
-*/
+Maybe using border-bottom would work*/
 #sign-in-button:hover {
     box-shadow: 0px 0px 5px 0px lightgray;
 }
