@@ -86,6 +86,10 @@ Useful link: https://www.mikedane.com/web-development/css/styling-search-bar/*/
     padding-right: 55px;
 }
 
+.search-form:hover{
+    box-shadow: 0px 0px 5px 0px lightgray;
+}
+
 .search-icon {
     height: 24px;
     width: 24px;
@@ -100,10 +104,8 @@ Useful link: https://www.mikedane.com/web-development/css/styling-search-bar/*/
     top: 8px;
 }
 
-/*You'll have to use this to have the icons use a hover effect
-with the search form*/
-.search-form:hover{
-    
+.mic-icon:hover {
+    cursor: pointer;
 }
 
 /*We set the border to be transparent that way when you hover
